@@ -11,6 +11,7 @@
     <groupId>com.example</groupId>
     <artifactId>eureka-registry-server</artifactId>
     <version>0.0.1-SNAPSHOT</version>
+    <name>eureka-registry-server</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>
@@ -61,7 +62,7 @@
                 <configuration>
                     <source>1.8</source>
                     <target>1.8</target>
-                    <encoding>${project.build.sourceEncoding}</encoding>
+                    <encoding>UTF-8</encoding>
                 </configuration>
             </plugin>
         </plugins>
